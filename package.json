@@ -7,12 +7,14 @@
     "dev": "webpack-dev-server --open",
     "build": "webpack"
   },
-  "author": "Gonzalo Fleming",
+  "author": "Esteban Abarca",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.9.6",
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.13",
     "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.13.12",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
     "file-loader": "^6.0.0",
@@ -26,18 +28,6 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.8.7"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gonzafg2/Template-Proyectos-No-VueJS.git"
-  },
-  "keywords": [
-    "babel",
-    "webpack"
-  ],
-  "bugs": {
-    "url": "https://github.com/gonzafg2/Template-Proyectos-No-VueJS/issues"
-  },
-  "homepage": "https://github.com/gonzafg2/Template-Proyectos-No-VueJS#readme"
+    "regenerator-runtime": "^0.13.7"
+  }
 }
